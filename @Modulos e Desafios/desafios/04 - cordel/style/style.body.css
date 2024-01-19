@@ -2,26 +2,18 @@
 *{
     margin: 0px;
 }
-@font-face {
-    font-family: 'titulo';
-    src: url(../fontes/passion-one/PassionOne-Bold.otf) format(opentype);
-}
-@font-face {
-    font-family: 'conteudo';
-    src: url(../fontes/Sriracha/Sriracha-Regular.ttf) format(truetype);
+article{
+    background-color: white;
+    text-align: left;
+    padding: 10px;
 }
 article p{
     font-family: 'conteudo';
-    margin: 20px;
+    margin: 30px;
+    padding: 10px;
     width: 520px;
     font-size: 3em;
-    margin-bottom: 100px;
 }
-article#a1{
-    background-color: white;
-    text-align: left;
-}
-
 article#a2{
     background-image: url(../imagens/background001.jpg);
     background-size: cover;
@@ -29,19 +21,10 @@ article#a2{
     background-position: center center;
     background-repeat: no-repeat;
     text-align: left;
-    padding: 10px;
 }
 #a2 > p{
     color: white;
     background-color: rgba(0, 0, 0, 0.500);
-}
-article#a3{
-    background-color: white;
-    text-align: left;
-}
-article#a4{
-    background-color: white;
-    text-align: left;
 }
 article#a5{
     background-image: url(../imagens/background002.jpg);
@@ -53,16 +36,7 @@ article#a5{
     padding: 10px;
 }
 #a5 > p{
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.450);
     color: white;
     background-color: rgba(0, 0, 0, 0.500);
     text-shadow: 1px 1px black;
-}
-article#a6{
-    background-color: white;
-    text-align: left;
-}
-article#a7{
-    background-color: white;
-    text-align: left;
 }

@@ -2,9 +2,16 @@
 *{
     margin: 0px;
 }
+@font-face {
+    font-family: 'titulo';
+    src: url(../fontes/passion-one/PassionOne-Bold.otf) format(opentype);
+}
+@font-face {
+    font-family: 'conteudo';
+    src: url(../fontes/Sriracha/Sriracha-Regular.ttf) format(truetype);
+}
 header{
-    min-width: 100px; 
-    padding: 80px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
     text-align: center;
     color:white;
     background-color: black;
