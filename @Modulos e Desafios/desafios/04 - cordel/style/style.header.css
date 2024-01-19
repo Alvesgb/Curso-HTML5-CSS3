@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+header{
+    min-width: 100px; 
+    padding: 80px 0px 50px 0px;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
+header > p{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header .cm{
+    display: inline-block;
+    font-size: 130%;
+}
+header h1{
+    font-weight: bold;
+    font-size: 6em;
+    font-family: 'titulo';
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
