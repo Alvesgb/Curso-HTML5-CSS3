@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 body{
-    background-image: url(imagens/wallpaper005.jpg)
+    background-image: url(imagens/wallpaper005.jpg);
+    background-repeat: no-repeat;
 }
 header{  
     padding: 20px;
