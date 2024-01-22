@@ -21,15 +21,24 @@
             margin-bottom: 30px;
         }
         table{
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
             margin: auto;
             border-collapse: collapse;
             width:700px;
+        }
+        caption{
+            background-color: lightgray;
+            border: 1px solid black;
+            font-weight: bold;
+            padding: 10px;
         }
         thead{
             text-align: center;
             background-color: lightgray;
             font-weight: bold;
+        }
+        th{
+            border: 1px solid black;
+            padding: 10px;
         }
         td{
             border: 1px solid black;
@@ -40,17 +49,16 @@
 <body>
     <header><h1>LISTA DE FILMES</h1></header>
     <table>
+        <caption>Filmes Favoritos</caption>
         <thead>
-            <td>Grupo</td>
-            <td>Nome</td>
-            <td colspan="3">Filmes</td>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nome</th>
+            <th colspan="3" scope="colgroup">Filmes</th>
         </thead>
         <tbody>
             <!--Mulheres-->
             <tr>
-                <td rowspan="4"><strong>Mulheres</strong></td>
-            </tr>
-            <tr>
+                <th rowspan="3" scope="rowgroup"><strong>Mulheres</strong></th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -70,9 +78,7 @@
             </tr>
             <!--Homens-->
             <tr>
-                <td rowspan="4"><strong>Homens</strong></td>
-            </tr>
-            <tr>
+                <th rowspan="3" scope="rowgroup"><strong>Homens</strong></th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
