@@ -23,11 +23,24 @@
             font-family: 'Oswald', sans-serif;
         }
         table{
+            position: relative;
             font-size: 1.2em;
             margin: auto;
             width: 500px;
-            box-shadow: 0px 0px 100000px rgba(0, 0, 0, 0.700);
             border-collapse: collapse;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+        caption{
+            color: white;
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: grey;
+            padding: 10px;
+            border: 1px solid black;
         }
         th{
             background-color: grey;
@@ -39,8 +52,8 @@
             padding: 3px;
             border: 1px solid black;
         }
-        .linha{
-            background-color: rgba(128, 128, 128, 0.300);
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
         .num{
             text-align: right;
@@ -59,7 +72,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr class="linha">
+            <tr>
                 <td>São Paulo</td>
                 <td class="num">44 411 238</td>
             </tr>
@@ -67,7 +80,7 @@
                 <td>Minas Gerais</td>
                 <td class="num">20 538 718</td>
             </tr>
-            <tr class="linha"><td>Rio de Janeiro</td>
+            <tr><td>Rio de Janeiro</td>
                 <td class="num">16 054 524</td>
             </tr>
             <tr>
@@ -82,7 +95,7 @@
                 <td>Rio Grande do Sul</td>
                 <td class="num">10 882 965</td>
             </tr>
-            <tr class="linha">
+            <tr>
                 <td>Pernambuco</td>
                 <td class="num">9 058 931</td>
             </tr>
@@ -90,7 +103,147 @@
                 <td>Ceará</td>
                 <td class="num">8 794 957</td>
             </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr><td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+            </tr>
             <tr class="linha">
+                <td>Paraná</td>
+                <td class="num">11 444 380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 882 965</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 931</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 794 957</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr><td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+            </tr>
+            <tr class="linha">
+                <td>Paraná</td>
+                <td class="num">11 444 380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 882 965</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 931</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 794 957</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr><td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+            </tr>
+            <tr class="linha">
+                <td>Paraná</td>
+                <td class="num">11 444 380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 882 965</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 931</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 794 957</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr><td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+            </tr>
+            <tr class="linha">
+                <td>Paraná</td>
+                <td class="num">11 444 380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 882 965</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 931</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 794 957</td>
+            </tr>
+            <tr>
                 <td>Pará</td>
                 <td class="num">8 121 025</td>
             </tr>
