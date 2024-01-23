@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            color: white;
+            background-color: black;
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 50px;
+            font-size: 2em;
+            font-variant: small-caps;
+            text-decoration: underline;
+
+        }
+        h2{
+            border-radius: 8px;
+            margin-left: 20px;
+            padding: 10px;
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-decoration: underline;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.300);
+            width: 400px;
+        }
+        p{
+            border-radius: 8px;
+            width: 400px;
+            padding: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.300);
+            margin-left: 20px;
+            text-indent: 10px;
+            text-align: justify;
+            line-height: 1.5em;
+        }
+        iframe{
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            margin: auto;
+            width: 700px;
+            height: 320px;
+        }
+        strong{
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Teste de iframe</h1>
+    </header>
+    <h2>Texto aleatório</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, cum? Dolorum accusantium nam in consequatur molestiae, pariatur quisquam alias a quaerat <strong>A tabela é o iframe</strong> veniam quo sint dolores dolor eius, necessitatibus recusandae amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatum repellat atque earum rem, rerum quis accusamus omnis harum sint. Minus illo perferendis doloremque optio odio repellendus temporibus accusamus error?</p>
+
+    <iframe src="pag/tabela-05.html" frameborder="0">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae ratione sit et eos voluptas. Tenetur accusantium similique suscipit dolore qui, magni voluptatum commodi autem beatae sint aliquid, itaque optio repudiandae. Lorem ipsum dolor sit amet <strong>A tabela é o iframe</strong> consectetur adipisicing elit. Accusantium atque mollitia rem molestias recusandae eos laborum officia expedita! Ex, velit quas nobis architecto quod temporibus excepturi! Maxime eum dolor distinctio!</p>
+
+</body>
+</html>

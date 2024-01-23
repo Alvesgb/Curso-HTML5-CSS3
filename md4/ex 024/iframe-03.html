@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe 3</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        header{
+            color: white;
+            background-color: black;
+            text-align: center;
+            padding: 30px;
+            font-size: 1.8em;
+            font-variant: small-caps;
+            text-decoration: underline;
+        }
+        a{
+            border-radius: 10px;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            background-color: black;
+            transition-duration: 0.5s;
+            color: white;
+        }
+        li{
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            font-size: 1.5em;
+        }
+        iframe{
+            display: block;
+            margin: auto;
+            width: 90vw;
+            height: 500px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Teste com iframe 2</h1>
+    </header>
+    <ul>
+        <li><a href="iframe-02.html" target="frame">1º Página</a></li>
+        <li><a href="https://alvesgb.github.io/Projeto-Android/" target="frame">2º Página</a></li>
+        <li><a href="https://alvesgb.github.io/Projeto-Cordel-Moderno/" target="frame">3º Página</a></li>
+    </ul>
+
+    <iframe name="frame" src="pag/index.html">
+        <p>Infelizmente seu navegador não é compatível.</p>
+    </iframe>
+</body>
+</html>
