@@ -23,9 +23,10 @@ main{
     height: 627px;
     width: 311px;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 iframe{
     position: relative;
@@ -36,18 +37,18 @@ iframe{
 }
 #options{
     position: absolute;
-    top: 30%;
-    left: 65%;
-    background-color: rgba(211, 211, 211, 0.700);
+    top: 88%;
+    left: 41%;
+    background-color: rgb(233, 233, 233);
     border-radius: 40px;
 }
 #options img:hover{
-    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
-    transform: translate(-7%, -0%);
+    transform: translate(-0%, -10%);
     transition-duration: 0.3s;
 }
 #options img{
     width: 50px;
-    margin: 20px;
+    margin: 5px;
+    padding: 0px 10px;
     border-radius: 50%;
 }
