@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@media screen and (min-width: 768px){
+#icon-menu{
+    display: none;
+}
+menu{
+    display: block;
+}
+menu > ul{
+    list-style-type: none;
+    margin-left: 40px;
+}
+menu > ul > li{
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 10px;
+}
+menu > ul > li > a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0, 0.400);
+    border-radius: 0px 15px 15px 0px ;
+}
+menu > ul > li > a:hover{
+    color: black;
+    background-color: rgb(215, 215, 215);
+    transition-duration: 0.5s;
+}
+main{
+    width: 800px;
+}
+}
