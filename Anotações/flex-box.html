@@ -1,0 +1,76 @@
+display: flex;  <!--Para iniciar-->
+
+=== flex-direction - para definir o eixo principal ===
+
+flex-direction: row;                <!--Horizontal da esquerda para direita-->
+flex-direction: row-reverse;        <!--Horizontal da direita para esuqerda-->
+
+flex-direction: column;             <!--Vertical de cima para baixo-->
+flex-direction: column-reverse;     <!--Vertical de baixo para cima-->
+
+=== justify-content - para definir a posição Horizontal ===
+
+justify-content: flex-start;     <!--Esquerda-->
+justify-content: flex-end;       <!--Direita-->
+justify-content: center;         <!--Centro-->
+justify-content: space-between;  <!--esquerda centro e direita-->
+justify-content: space-around;   <!--esquerda centro e direita com margem-->
+
+=== align-self - para definir a posição de um item unico ===
+
+=== align-content - para definir a posição das linhas ===
+
+align-content: flex-start;     <!--Bima-->
+align-content: flex-end;       <!--Baixo-->
+align-content: flex-center;    <!--Centro-->
+align-content: space-between;  <!--cima e baixo -->
+align-content: space-around;   <!--cima e baixo com margem-->
+
+
+=== align-items - para definir a posição Vertical ===
+
+align-items: flex-start;     <!--Bima-->
+align-items: flex-end;       <!--Baixo-->
+align-items: flex-center;    <!--Centro-->
+align-items: stretch;        <!--Para ocupar o espaço todo-->
+align-items: baseline;       <!--Escadinha-->
+
+=== flex-wrap - para quebrar a linha caso chegue no limite ===
+
+flex-wrap: nowrap;          <!--Para não quebrar a linha-->
+flex-wrap: wrap;            <!--Para quebrar a linha para baixo-->
+flex-wrap: wrap-reverse;    <!--Para quebrar a linha para cima-->
+
+=== flex-flow - para juntar o flex-direction com o flex-wrap ===
+
+flex-flow: row wrap;
+flex-flow: column wrap;
+
+=== gap - espaçamento ===
+
+gap: 10px;          <!--Espaçamento para todos os lados-->
+row-gap: 10px;      <!--Espaçamento horizontal-->
+column-gap: 10px;   <!--Espaçamento vertical--> 
+
+=== order - para mudar a posição de um item especifico ===
+
+EX: b1 b2 b3  <!--Sequencia-->
+
+.b1{
+    order: 3; <!--o 1ª foi para 3ª-->
+}
+.b2{
+    order: 1; <!--o 2ª foi para 1ª-->
+}
+.b3{
+    order: 2; <!--o 3ª foi para 2ª-->
+}
+
+=== flex-grow - Para aumentar o tamanho de um item ===
+
+=== flex-shrink - Para diminuir o tamanho de um item ===
+
+=== flex-basis - Para determinar a altura e largura de um item ===
+
+=== flex - para resumir os 3 comandos a cima ===
+ 1º flex-grow - 2º flex-shrink - 3º flex-basis
